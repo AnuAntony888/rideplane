@@ -1,0 +1,86 @@
+.image1{
+    border-radius: 30px;
+    width: 100%;
+    height: 200px;
+    border-color: transparent ;
+
+ 
+}
+.image2{
+    border-radius: 30px;
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.image3{
+    border-radius: 30px;
+    width: 100%;
+    height: 200px;
+
+}
+.image4{
+    border-radius: 30px;
+    width: 100%;
+    height: 200px;
+}
+
+
+.btn-dark{
+padding: 5px;
+    border-radius: 50px;
+    background-color: black !important;
+}
+.backgroundbutton{
+    
+    position: absolute;
+    bottom: 30px;
+
+    background: #CCC;
+
+border-radius: 30px;
+width: 85%;
+padding: 5px;}
+.btonne{
+    background-color: lightgray;
+    border-radius: 50px;
+    padding: 11px;
+}
+.card {
+    border-color: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    transform-style: preserve-3d;
+
+ 
+}
+
+.card:hover{
+    transform: rotateY(0.5turn);
+}
+
+.card:hover .backgroundbutton{
+    display: none !important;
+}
+
+
+
+
+
+.btn-dark{
+    transform: translateX(30px) !important;
+}
+
+
+@media  screen and (max-width:376px) {
+    .btn-dark{
+        transform: translateX(10px) !important;
+    }
+}
+
+@media  screen and (max-width:321px) {
+    .btn-dark{
+        transform: translateX(10px) !important;
+        font-size: .5rem;
+    }
+}
